@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torres Garden — Beautiful Plants & Flowers | Berryessa Flea Market</title>
+  <meta name="description" content="From gorgeous succulents to perfectly handled trees and a variety of other beautiful plants and flowers. Visit Torres Garden at the Berryessa Flea Market.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">&#127807;</span>
+        Torres Garden
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-i18n="nav_home">Home</a></li>
+        <li><a href="#about" data-i18n="nav_about">About</a></li>
+        <li><a href="#plants" data-i18n="nav_plants">Our Plants</a></li>
+        <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="#contact" class="nav-cta" data-i18n="nav_contact">Visit Us</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">ES</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home" style="background-image: url('images/main.JPG');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle" data-i18n="hero_subtitle">Berryessa Flea Market, San Jose</p>
+      <h1 class="hero-title">Torres Garden</h1>
+      <p class="hero-description" data-i18n="hero_description">From gorgeous succulents to perfectly handled trees and a variety of other beautiful plants and flowers.</p>
+      <div class="hero-buttons">
+        <a href="#plants" class="btn btn-primary" data-i18n="hero_btn_explore">Explore Our Plants</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero_btn_find">Find Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span data-i18n="hero_scroll">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="about-img about-img-1">
+            <img src="images/main.JPG" alt="Torres Garden owners at their booth" loading="lazy">
+          </div>
+          <div class="about-img about-img-2">
+            <img src="images/IMG_7987.JPG" alt="Colorful bougainvillea at the market" loading="lazy">
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag" data-i18n="about_tag">Our Story</span>
+          <h2 class="section-title" data-i18n="about_title">Rooted in Family,<br>Grown with Love</h2>
+          <p class="about-text" data-i18n="about_text_1">Torres Garden is a family-run business built on a deep love for plants and a passion for bringing natural beauty into people's lives. What started as a personal hobby grew into something the whole community now enjoys.</p>
+          <p class="about-text" data-i18n="about_text_2">Every weekend at the Berryessa Flea Market, we hand-select and care for each plant — from delicate succulents to towering trees — so you can bring home something truly special. We believe everyone deserves a little green in their life.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">100+</span>
+              <span class="stat-label" data-i18n="stat_varieties">Plant Varieties</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1000+</span>
+              <span class="stat-label" data-i18n="stat_customers">Happy Customers</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-i18n="stat_every">Every</span>
+              <span class="stat-label" data-i18n="stat_weekend">Weekend at Berryessa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plants Section -->
+  <section class="section plants" id="plants">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="plants_tag">What We Offer</span>
+        <h2 class="section-title" data-i18n="plants_title">Our Plant Collection</h2>
+        <p class="section-subtitle" data-i18n="plants_subtitle">Carefully selected and lovingly maintained — every plant is ready to thrive in your home or garden.</p>
+      </div>
+      <div class="plants-grid">
+        <div class="plant-card">
+          <div class="plant-card-img">
+            <img src="images/IMG_7992.JPG" alt="Variety of beautiful succulents" loading="lazy">
+          </div>
+          <div class="plant-card-body">
+            <h3 data-i18n="card_succulents_title">Succulents</h3>
+            <p data-i18n="card_succulents_text">Gorgeous, low-maintenance succulents in all shapes, sizes, and colors. Perfect for beginners and collectors alike.</p>
+          </div>
+        </div>
+        <div class="plant-card">
+          <div class="plant-card-img">
+            <img src="images/IMG_7984.JPG" alt="Citrus trees ready for planting" loading="lazy">
+          </div>
+          <div class="plant-card-body">
+            <h3 data-i18n="card_trees_title">Trees</h3>
+            <p data-i18n="card_trees_text">From ornamental to fruit-bearing, our trees are perfectly handled and ready to plant in your yard or garden.</p>
+          </div>
+        </div>
+        <div class="plant-card">
+          <div class="plant-card-img">
+            <img src="images/IMG_7980.JPG" alt="Vibrant bougainvillea flowers" loading="lazy">
+          </div>
+          <div class="plant-card-body">
+            <h3 data-i18n="card_flowers_title">Flowers</h3>
+            <p data-i18n="card_flowers_text">Vibrant, seasonal flowers to add a splash of color to any space. Fresh selections every weekend.</p>
+          </div>
+        </div>
+        <div class="plant-card">
+          <div class="plant-card-img">
+            <img src="images/IMG_7981.JPG" alt="Hanging basket with fuchsia" loading="lazy">
+          </div>
+          <div class="plant-card-body">
+            <h3 data-i18n="card_indoor_title">Indoor Plants</h3>
+            <p data-i18n="card_indoor_text">Beautiful houseplants that purify your air and bring life to any room. We'll help you pick the perfect one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="gallery_tag">Gallery</span>
+        <h2 class="section-title" data-i18n="gallery_title">A Look at Our Work</h2>
+        <p class="section-subtitle" data-i18n="gallery_subtitle">Every plant tells a story. Here are some of our favorites.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-tall">
+          <img src="images/IMG_7993.JPG" alt="Colorful bougainvillea and flower display" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_7983.JPG" alt="Pink calla lilies" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_7988.JPG" alt="Purple bougainvillea" loading="lazy">
+        </div>
+        <div class="gallery-item gallery-item-wide">
+          <img src="images/IMG_7990.PNG" alt="Orchids on display" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_7991.jpg" alt="Citrus fruit tree" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_7986.JPG" alt="Blooming trees" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_7985.JPG" alt="Young trees in pots" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="images/IMG_7982.JPG" alt="Hanging basket detail" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="section testimonial">
+    <div class="container">
+      <div class="testimonial-card">
+        <div class="testimonial-quote">&#8220;</div>
+        <p class="testimonial-text" data-i18n="testimonial_text">Every time I visit Berryessa, I make sure to stop by Torres Garden. Their plants are always healthy, beautiful, and affordable. You can tell they really care about what they do.</p>
+        <p class="testimonial-author" data-i18n="testimonial_author">— A Happy Customer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Location Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag" data-i18n="contact_tag">Visit Us</span>
+          <h2 class="section-title" data-i18n="contact_title">Come Say Hello</h2>
+          <p class="contact-text" data-i18n="contact_text">Find us every weekend at the Berryessa Flea Market. We'd love to help you find the perfect plant for your home or garden.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">&#128205;</div>
+              <div>
+                <strong data-i18n="contact_location">Location</strong>
+                <p>Berryessa Flea Market<br>1590 Berryessa Rd, San Jose, CA 95133</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">&#128197;</div>
+              <div>
+                <strong data-i18n="contact_hours_label">Market Hours</strong>
+                <p data-i18n="contact_hours_value">Saturday &amp; Sunday<br>6:00 AM – 4:00 PM</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">&#128222;</div>
+              <div>
+                <strong data-i18n="contact_phone_label">Phone</strong>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-map">
+          <iframe
+            src="https://maps.google.com/maps?q=1590+Berryessa+Rd,+San+Jose,+CA+95133&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0; border-radius: 20px;"
+            allowfullscreen=""
+            loading="lazy"
+            title="Berryessa Flea Market location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">&#127807;</span>
+          <span class="footer-name">Torres Garden</span>
+          <p class="footer-tagline" data-i18n="footer_tagline">Beautiful plants, grown with love.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home" data-i18n="nav_home">Home</a>
+          <a href="#about" data-i18n="nav_about">About</a>
+          <a href="#plants" data-i18n="footer_plants">Plants</a>
+          <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+          <a href="#contact" data-i18n="footer_contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="Facebook">FB</a>
+          <a href="#" class="social-link" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer_copyright">&copy; 2026 Torres Garden. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
