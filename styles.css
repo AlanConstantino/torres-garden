@@ -317,7 +317,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: var(--green-900);
-  background-image: url('images/main.JPG');
+  background-image: url('images/main.webp');
   background-size: cover;
   background-position: center 30%;
   overflow: hidden;
